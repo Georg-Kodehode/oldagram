@@ -1,0 +1,121 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #C6C6C6;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+}
+
+header{
+    height: 67px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border-bottom: 1px solid #C6C6C6;
+}
+section{
+    height: 545px;
+    margin-bottom: 25px;
+    background: #FFFFFF;
+}
+section:last-of-type{
+    margin-bottom: 0;
+}
+
+.container{
+    width: 375px;
+}
+
+.divider{
+    height: 25px;
+}
+
+.logo{
+    width: 127px;
+}
+
+.round-img{
+    width: 34px;
+    /* One of the pictures are almost 34px*34px. Therefore I set the height as well as the stretch is not noticable */
+    height: 34px;
+    border-radius: 50%;
+}
+
+.user-info-wrapper{
+    height: 34px;
+    padding: 10px 0 11px 0;
+}
+.user-info{
+    width: 348px;
+    height: 34px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+/* TEXT-CONTENT */
+.name-and-location-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 31px;
+    padding: 7px;
+}
+.name, 
+.location, 
+.like-count, 
+.post-text{
+    margin: 0;
+    color: #000000;
+}
+.name,
+.like-count,
+.post-text{
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+}
+.location{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+}
+.post-text span{
+    font-weight: 400;
+}
+
+/* POST-IMG AND POST-BODY */
+.post-img{
+    width: 375px;
+    display: block;
+}
+.post-body{
+    width: 346px;
+    height: 78px;
+    margin: 17px 0 0 9px;
+    padding: 0 0 16px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.icon-wrapper{
+    height: 25px;
+}
+.icon{
+    width: 25px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.icon:hover,
+.icon:focus{
+    opacity: 0.5;
+}
+
